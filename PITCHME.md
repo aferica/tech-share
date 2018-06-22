@@ -17,14 +17,14 @@
 
 .		#项目总目录
 ├── config		#项目配置文件夹
-│		├── db_config.js		#数据库配置文件
+│	├── db_config.js		#数据库配置文件
 ├── models		#逻辑模块文件夹
-│		├── user		#user模块文件夹
-│		│		├── user_controller.js		#user逻辑实现文件
-│		│		├── user_model.js		#user模型文件
+│	├── user		#user模块文件夹
+│	│	├── user_controller.js		#user逻辑实现文件
+│	│	├── user_model.js		#user模型文件
 |
 ├── route.js		#程序路由文件夹
-│		├── user_route.js		#user模块路由文件
+│ ├── user_route.js		#user模块路由文件
 |
 ├── app.js		#程序入口文件
 └── package.json		#Node项目依赖文件
