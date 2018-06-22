@@ -95,7 +95,19 @@ exports.dbURI = dbURI;
 ```
 ---
 #### 1.3 项目模块实现介绍
-##### 1.3.1 app.js配置
+---
+
+##### 1.3.1 项目流程介绍
+``` sequence
+participant app.js
+participant route.js
+participant controller.js
+participant mongodb
+
+```
+---
+
+##### 1.3.2 app.js配置
 ``` js
 const express = require("express"); 
 const path = require("path"); 
@@ -155,6 +167,9 @@ app.listen(3000,function (req,reset) {
 
 ```
 ---
+
+##### 1.3.3 route.js实现
+
 
 
 
